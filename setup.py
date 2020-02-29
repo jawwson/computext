@@ -7,7 +7,7 @@ setup(
   description = 'This library allows you to do things like: make it look like the computer is typing, backspace text, make your program wait for you to press enter(for text games), and clear the screen.',   # Give a short description about your library
   author = 'Jason "Jawwson" Wang',                   # Type in your name
   author_email = 'jawwson@outlook.com',      # Type in your E-Mail
-  url = 'https://github.com/jawwson',   # Provide either the link to your github or to your website
+  url = 'https://github.com/jawwson/computype',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
   keywords = ['TYPING', 'CLEAR', 'BACKSPACE'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
