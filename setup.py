@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'computext',         # How you named your package folder (MyLib)
   packages = ['computext'],   # Chose the same as "name"
-  version = '0.0.1',      # Start with a small number and increase it with every change you make
+  version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This library allows you to do things like: make it look like the computer is typing, backspace text, make your program wait for you to press enter(for text games), and clear the screen.',   # Give a short description about your library
   author = 'Jason "Jawwson" Wang',                   # Type in your name
@@ -11,7 +11,6 @@ setup(
   download_url = 'https://github.com/jawwson/computype/archive/v_0.0.1.tar.gz',    # I explain this later on
   keywords = ['TYPING', 'CLEAR', 'BACKSPACE'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'time',
           'keyboard',
       ],
   classifiers=[
